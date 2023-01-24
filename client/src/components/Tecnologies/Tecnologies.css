@@ -1,0 +1,41 @@
+.divTecTools{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid salmon; */
+  justify-content: space-between;
+  margin: 5% 2% 2% 2%;
+}
+
+.divOptions{
+  box-sizing: border-box;
+  /* border: 1px solid greenyellow; */
+  width: 18%;
+  margin-bottom: 1%;
+  /* background-color: hsl(0, 0%, 100%); */
+}
+
+.h3Tittle{
+  /* border: 1px solid blue; */
+  display: block;
+  font-size: 2rem;
+  margin-top: 8.5%;
+  text-align: center;
+}
+
+.imgTecTools{
+  width: 30%;
+  /* color: white; */
+  /* background-color: white; */
+  /* border: 1px solid greenyellow; */
+}
+
+.h5TecTools{
+  /* border: 1px solid salmon; */
+  margin-top: 0%;
+}
+
+.divMayTec{
+  border: 1px solid rgb(0, 0, 0);
+  
+}

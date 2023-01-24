@@ -1,0 +1,41 @@
+.divProjects{
+  display: flex;
+  /* border: 1px solid salmon; */
+  margin: 3%;
+}
+
+.imgProjects{
+  width: 90%;
+}
+
+.h4Projects{
+  /* border: 1px solid blue; */
+  font-size: 1.3rem;
+}
+
+.pProjects{
+  display: block;
+  /* border: 1px solid rgb(21, 255, 0); */
+  width: 100%;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.divTextProjects{
+  /* border: 1px solid green; */
+  width: 35%;
+}
+
+.divImgProjects{
+  /* border: 1px solid rgb(128, 0, 0); */
+  width: 65%;
+}
+
+.iconProject{
+  top: 0;
+  width: 10%;
+  /* border: 1px solid salmon; */
+  margin-right: 5%;
+  position: relative;;
+
+}

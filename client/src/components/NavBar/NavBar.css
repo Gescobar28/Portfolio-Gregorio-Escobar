@@ -1,0 +1,29 @@
+.liHeader{
+  font-size: 1.2rem;
+  list-style: none;
+  /* border: 1px solid black; */
+  /* margin: 1%; */
+  margin-right: 1.5%;
+}
+
+.ulHeader{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right: 5%;
+  /* border: 1px solid black; */
+  /* margin: 0%; */
+}
+
+.divNav{
+  position: fixed;
+  /* border: 1px solid salmon; */
+  width: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+.aNav{
+  text-decoration: none;
+  color: #ffffff;
+}

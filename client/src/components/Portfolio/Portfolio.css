@@ -1,0 +1,17 @@
+.section1{
+  background-color: black;
+}
+
+.sectionHome{
+  /* background-color: black; */
+  /* color: white; */
+  top: 0;
+  margin: 0px;
+  /* background-image: url(https://fondosmil.com/fondo/52714.jpg); */
+}
+
+.divFooter{
+  /* background-color: black; */
+  /* color: white; */
+  border: 1px solid transparent;
+}

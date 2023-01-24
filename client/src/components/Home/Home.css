@@ -1,0 +1,95 @@
+.divHome{
+  display: flex;
+  border: 1px solid rgb(73, 245, 6);
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: 5%;
+}
+
+.divName{
+  border: 1px solid blue;
+  box-sizing: border-box;
+  width: 50%;
+  align-items: center;
+}
+
+.divInfoHome{
+  border: 1px solid green;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: justify;
+  /* margin-top: 5%; */
+}
+
+.pInfoHome{
+  margin: 25% 5% 20% 5%;
+  border: 1px solid rgb(251, 255, 39);
+  font-size: 1.2rem; 
+  
+}
+
+#name{
+  font-size: 4rem;
+  justify-content: flex-start;
+  border: 1px solid rgb(128, 0, 100);
+  margin-left: 5%;
+  margin-top: 25%;
+  margin-bottom: 0%;
+  text-align: left;
+  color: rgb(0, 255, 0);
+  animation: change-color 5s linear 0.5s 4 normal forwards running;
+
+}
+
+@keyframes change-color {
+  from { color: rgb(0, 255, 13); }  /* Primer fotograma */
+  to { color: rgb(0, 128, 128); }  /* Segundo y último fotograma */
+}
+
+#fullStack{
+  font-size: 2rem;
+  justify-content: flex-start;
+  border: 1px solid rgb(255, 0, 0);
+  margin-top: 0px;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.divButton{
+  border: 1px solid rgb(255, 255, 255);
+  text-align: end;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
+.btnHome{
+  margin-top: 3%;
+  margin-right: 1%;
+  background-color: #292a30e8;
+  border-radius: 5%;
+  padding: 1%;
+  border-color: transparent;
+  /* width: 15%; */
+  text-align: center;
+  align-items: baseline;
+  justify-content: baseline;
+  color: white;
+}
+
+.spanHome{
+  padding: 0 10px 0 0;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  align-items: baseline;
+  justify-content: baseline;
+  color: white;
+}
+
+/* ---------- ANIMACIONES  ----------- */
+.animation {
+  /* animation: <name> <duration> <timing-function> <delay>
+                <iteration-count> <direction> <fill-mode> <play-state> */
+
+  animation: change-color 5s linear 0.5s 4 normal forwards running;
+}
