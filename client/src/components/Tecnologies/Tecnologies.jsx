@@ -8,9 +8,9 @@ export default function Tecnologies(){
       <h3 className="h3Tittle">Tecnologías y Herramientas</h3>
       <div className="divTecTools">
         {tecnologies.map(el =>
-          <div className="divOptions">
+          <div key={el.name} className="divOptions">
             <img src={el.image} className='imgTecTools'></img>
-            <h5 className="h5TecTools">{el.name.toUpperCase()}</h5>
+            <h5 key={el.name} className="h5TecTools">{el.name.toUpperCase()}</h5>
           </div>
           )}
       </div>

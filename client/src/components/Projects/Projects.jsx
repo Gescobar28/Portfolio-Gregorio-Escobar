@@ -2,12 +2,12 @@ import React from "react";
 import projects from "../../Info/projects";
 import './Projects.css'
 
-export default function Proyects(){
+export default function Projects(){
   return(
     <div id='Project' className="divMayTec">
       <h3 className="h3Tittle">Proyectos</h3>
       {projects.map(el => 
-        <div className="divProjects">
+        <div key={el.name} className="divProjects">
           <div className="divImgProjects">
             <img src={el.image} className='imgProjects'></img>
           </div>
