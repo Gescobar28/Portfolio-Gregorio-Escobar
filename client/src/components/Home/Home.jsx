@@ -13,7 +13,7 @@ export default function Home(){
         <NavBar/>
         <div className="divHome" >
           <div className="divName">
-            <h1 id="name">Gregorio Escobar</h1>
+            <h1 id="name"><span id="spanName">Hola, mi nombre es<br/></span>Gregorio Escobar</h1>
             <h1 id="fullStack">Desarrollador Web Full Stack</h1>
           </div>
           <div className="divInfoHome">
@@ -21,16 +21,20 @@ export default function Home(){
           </div>
         </div>
         <div className="divButton">
-          <a className="aNav" href="../../Info/CV-Gregorio-Escobar.pdf" download>
-            <button className="btnHome"><span className="spanHome"><BsDownload/></span>DESCARGAR CV</button>
+          <a className="aNav" href="https://drive.google.com/file/d/1RP-mDa2Kr4Yij7thtJhl9SRBD5JRVqCp/view?usp=sharing" target="_blank" download>
+            <button className="btnHome">
+              <BsDownload/><span className="spanHome">DESCARGAR CV</span>
+            </button>
           </a>
           <a className="aNav" href="https://github.com/Gescobar28" target="_blank">
             <button className="btnHome">
-            <span className="spanHome"><BsGithub/></span>GITHUB</button>
+              <BsGithub/><span className="spanHome">GITHUB</span>
+            </button>
           </a>
           <a className="aNav" href="https://www.linkedin.com/in/gregorioescobar28" target="_blank">
             <button className="btnHome">
-            <span className="spanHome"><BsLinkedin/></span>LINKEDIN</button>
+              <BsLinkedin/><span className="spanHome">LINKEDIN</span>
+            </button>
           </a>
         </div>
     </div>

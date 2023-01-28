@@ -36,6 +36,61 @@
 }
 
 .divMayTec{
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   
+}
+
+/* Pantallas grandes (Computadoras) */
+@media (max-width: 992px){
+
+}
+
+/* Pantallas dispositivos medianos (Tablets) */
+@media (max-width: 768px){
+
+}
+
+/* Pantallas dispositivos pequeños  (Telefonos) */
+@media (max-width: 576px){
+  .divTecTools{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid salmon; */
+    justify-content: space-between;
+    margin: 5% 2% 2% 2%;
+  }
+  
+  .divOptions{
+    box-sizing: border-box;
+    /* border: 1px solid greenyellow; */
+    width: 33%;
+    margin-bottom: 1%;
+    /* background-color: hsl(0, 0%, 100%); */
+  }
+  
+  .h3Tittle{
+    /* border: 1px solid blue; */
+    display: block;
+    font-size: 2rem;
+    margin-top: 8.5%;
+    text-align: center;
+  }
+  
+  .imgTecTools{
+    width: 60%;
+    /* color: white; */
+    /* background-color: white; */
+    /* border: 1px solid greenyellow; */
+  }
+  
+  .h5TecTools{
+    /* border: 1px solid salmon; */
+    margin-top: 0%;
+  }
+  
+  .divMayTec{
+    border: 1px solid rgb(0, 0, 0);
+    
+  }
 }

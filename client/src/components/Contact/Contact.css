@@ -34,3 +34,54 @@
   /* border: 1px solid salmon; */
   margin-top: 0%;
 }
+
+/* Pantallas grandes (Computadoras) */
+@media (max-width: 992px){
+
+}
+
+/* Pantallas dispositivos medianos (Tablets) */
+@media (max-width: 768px){
+
+}
+
+/* Pantallas dispositivos pequeños  (Telefonos) */
+@media (max-width: 576px){
+/* .divContact{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(0, 0, 0);
+} */
+
+.divContactOp{
+  /* display: flex; */
+  /* border: 1px solid rgb(241, 213, 213); */
+  width: 25%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.divOptionsContact{
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid salmon; */
+  justify-content: center;
+  width: 100%;
+  /* margin-left: 37%; */
+  margin-top: 5%;
+  margin-bottom: 10%;
+  box-sizing: border-box;
+}
+
+.imgContact{
+  width: 35%;
+  /* border: 1px solid salmon; */
+}
+
+.h4Contact{
+  width: 100%;
+  /* border: 1px solid salmon; */
+  margin-top: 0%;
+}
+
+}

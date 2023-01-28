@@ -1,43 +1,61 @@
+:root {
+  --firstColor: #17171b;
+  --secondColor: rgb(255, 72, 0);
+}
+
 .divHome{
   display: flex;
-  border: 1px solid rgb(73, 245, 6);
+  /* border: 1px solid rgb(73, 245, 6); */
   flex-wrap: wrap;
   box-sizing: border-box;
   margin-top: 5%;
+  /* background-color: #292a30e8; */
 }
 
 .divName{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   box-sizing: border-box;
   width: 50%;
   align-items: center;
+  /* background-color: grey; */
 }
 
 .divInfoHome{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 50%;
   box-sizing: border-box;
   text-align: justify;
   /* margin-top: 5%; */
+  /* color: rgb(255, 102, 0); */
+
 }
 
 .pInfoHome{
   margin: 25% 5% 20% 5%;
-  border: 1px solid rgb(251, 255, 39);
-  font-size: 1.2rem; 
-  
+  /* border: 1px solid rgb(251, 255, 39); */
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+#spanName{
+  display: none;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 5px rgb(5, 5, 5);
 }
 
 #name{
   font-size: 4rem;
   justify-content: flex-start;
-  border: 1px solid rgb(128, 0, 100);
+  /* border: 1px solid rgb(128, 0, 100); */
   margin-left: 5%;
   margin-top: 25%;
   margin-bottom: 0%;
   text-align: left;
-  color: rgb(0, 255, 0);
-  animation: change-color 5s linear 0.5s 4 normal forwards running;
+  text-shadow: 1px 1px 5px rgb(5, 5, 5);
+  /* color: rgb(255, 102, 0); */
+  /* animation: change-color 5s linear 0.5s 4 normal forwards running; */
+  /* transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s; */
 
 }
 
@@ -49,14 +67,17 @@
 #fullStack{
   font-size: 2rem;
   justify-content: flex-start;
-  border: 1px solid rgb(255, 0, 0);
+  /* border: 1px solid rgb(255, 0, 0); */
   margin-top: 0px;
   text-align: left;
   margin-left: 5%;
+  /* color: rgb(255, 102, 0); */
+  color: var(--secondColor);
+  text-shadow: 1px 1px 5px rgb(5, 5, 5);
 }
 
 .divButton{
-  border: 1px solid rgb(255, 255, 255);
+  /* border: 1px solid rgb(255, 255, 255); */
   text-align: end;
   align-items: baseline;
   justify-content: baseline;
@@ -65,25 +86,27 @@
 .btnHome{
   margin-top: 3%;
   margin-right: 1%;
-  background-color: #292a30e8;
-  border-radius: 5%;
+  background-color: var(--secondColor);
+  border-radius: 70px;
   padding: 1%;
   border-color: transparent;
   /* width: 15%; */
   text-align: center;
   align-items: baseline;
   justify-content: baseline;
-  color: white;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: 2px 3px 5px #000000;
+  font-size: 1.2rem;
 }
 
 .spanHome{
-  padding: 0 10px 0 0;
-  font-size: 1.2rem;
-  text-align: center;
-  font-weight: bold;
-  align-items: baseline;
-  justify-content: baseline;
-  color: white;
+  padding: 0 0 0 10px;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 3px 5px #000000;
+  /* border: 1px solid rgb(255, 255, 255); */
+
 }
 
 /* ---------- ANIMACIONES  ----------- */
@@ -92,4 +115,97 @@
                 <iteration-count> <direction> <fill-mode> <play-state> */
 
   animation: change-color 5s linear 0.5s 4 normal forwards running;
+}
+
+
+/*----------------- RESPONSIVE DESIGN*----------------/
+
+
+/* Pantallas grandes (Computadoras) */
+@media (max-width: 992px){
+
+}
+
+/* Pantallas dispositivos medianos (Tablets) */
+@media (max-width: 768px){
+
+}
+
+/* Pantallas dispositivos pequeños  (Telefonos) */
+@media (max-width: 576px){
+	.divName{
+    margin-top: 10%;
+    display: block;
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+    /* background-color: grey; */
+  }
+
+  .divInfoHome{
+    /* display: block; */
+    /* border: 1px solid green; */
+    width: 100%;
+    box-sizing: border-box;
+    text-align: justify;
+    margin-top: 5%; 
+    margin-bottom: 5%;
+    /* color: rgb(255, 102, 0); */
+
+  }
+
+  .pInfoHome{
+    margin: 0% 5% 0% 5%;
+    /* border: 1px solid rgb(251, 255, 39); */
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+  }
+
+  #name{
+    text-align: justify;
+  }
+
+  .divButton{
+  /* border: 1px solid rgb(255, 255, 255); */
+  text-align: center;
+  /* align-items: baseline; */
+  /* justify-content: baseline; */
+  margin-bottom: 10%;
+}
+
+.btnHome{
+  width: 20%;
+  margin-top: 5%;
+  margin-right: 5%;
+  background-color: var(--secondColor);
+  border-radius: 20px;
+  padding: 3% 1.5% 1% 1.5%;
+  border-color: transparent;
+  /* width: 15%; */
+  text-align: center;
+  /* align-items: baseline; */
+  /* justify-content: baseline; */
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: 2px 3px 5px #000000;
+  font-size: 2rem;
+}
+
+.spanHome{
+  display: none;
+  padding: 0 0 0 10px;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 3px 5px #000000;
+  /* border: 1px solid rgb(255, 255, 255); */
+}
+
+#spanName{
+  display: flex;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 5px rgb(5, 5, 5);
+  margin-bottom: 3%;
+}
+
 }

@@ -13,5 +13,25 @@
 .divFooter{
   /* background-color: black; */
   /* color: white; */
-  border: 1px solid transparent;
+  border: 1px solid var(--firstColor);
+}
+
+/*----------------- RESPONSIVE DESIGN*----------------/
+
+
+/* Pantallas grandes (Computadoras) */
+@media (max-width: 992px){
+
+}
+
+/* Pantallas dispositivos medianos (Tablets) */
+@media (max-width: 768px){
+
+}
+
+/* Pantallas dispositivos pequeños  (Telefonos) */
+@media (max-width: 576px){
+  .sectionAbout{
+    display: none;
+  }
 }
