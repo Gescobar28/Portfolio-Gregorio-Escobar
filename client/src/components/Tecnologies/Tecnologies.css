@@ -21,6 +21,8 @@
   font-size: 2rem;
   margin-top: 8.5%;
   text-align: center;
+  text-shadow: 1px 1px 5px black;
+  color: var(--secondColor);
 }
 
 .imgTecTools{
@@ -36,8 +38,8 @@
 }
 
 .divMayTec{
-  /* border: 1px solid rgb(0, 0, 0); */
-  
+  border: 1px solid transparent;
+
 }
 
 /* Pantallas grandes (Computadoras) */
@@ -60,7 +62,7 @@
     justify-content: space-between;
     margin: 5% 2% 2% 2%;
   }
-  
+
   .divOptions{
     box-sizing: border-box;
     /* border: 1px solid greenyellow; */
@@ -68,29 +70,29 @@
     margin-bottom: 1%;
     /* background-color: hsl(0, 0%, 100%); */
   }
-  
+
   .h3Tittle{
     /* border: 1px solid blue; */
     display: block;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 8.5%;
     text-align: center;
   }
-  
+
   .imgTecTools{
     width: 60%;
     /* color: white; */
     /* background-color: white; */
     /* border: 1px solid greenyellow; */
   }
-  
+
   .h5TecTools{
     /* border: 1px solid salmon; */
     margin-top: 0%;
   }
-  
+
   .divMayTec{
-    border: 1px solid rgb(0, 0, 0);
-    
+    border: 1px solid transparent;
+
   }
 }

@@ -1,6 +1,6 @@
 :root {
   --firstColor: #17171b;
-  --secondColor: rgb(255, 72, 0);
+  --secondColor: hsla(17, 100%, 54%, 0.925);
 }
 
 .divHome{
@@ -86,24 +86,34 @@
 .btnHome{
   margin-top: 3%;
   margin-right: 1%;
-  background-color: var(--secondColor);
+  background-color: rgba(8, 6, 6, 0.589);
   border-radius: 70px;
   padding: 1%;
-  border-color: transparent;
+  border-color: var(--secondColor);
   /* width: 15%; */
   text-align: center;
   align-items: baseline;
   justify-content: baseline;
-  color: rgb(255, 255, 255);
+  color: white;
   font-weight: bold;
-  text-shadow: 2px 3px 5px #000000;
+  text-shadow: 8px 5px 15px var(--secondColor);
   font-size: 1.2rem;
 }
+
+.aNav :hover{
+  background-color: var(--secondColor);
+  cursor: pointer;
+  border-color: #000000;
+}
+
+/* .btnHome :hover{
+  background-color: var(--secondColor);
+} */
 
 .spanHome{
   padding: 0 0 0 10px;
   font-size: 1rem;
-  color: rgb(255, 255, 255);
+  color: white;
   text-shadow: 2px 3px 5px #000000;
   /* border: 1px solid rgb(255, 255, 255); */
 
@@ -178,10 +188,10 @@
   width: 20%;
   margin-top: 5%;
   margin-right: 5%;
-  background-color: var(--secondColor);
+  background-color: rgba(8, 6, 6, 0.829);
   border-radius: 20px;
   padding: 3% 1.5% 1% 1.5%;
-  border-color: transparent;
+  border-color: var(--secondColor);
   /* width: 15%; */
   text-align: center;
   /* align-items: baseline; */

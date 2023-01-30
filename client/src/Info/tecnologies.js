@@ -1,15 +1,15 @@
 const tecnologies = [
   {
     name: "JavaScript",
-    image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
+    image: "https://res.cloudinary.com/gescobar/image/upload/v1675081898/portfolio/javascript_icon_130900_rjyqbz.svg",
   },
   {
     name: "React",
-    image: "https://cdn.icon-icons.com/icons2/2415/PNG/96/react_original_logo_icon_146374.png",
+    image: "https://res.cloudinary.com/gescobar/image/upload/v1675081898/portfolio/react_original_logo_icon_146374_viftco.svg",
   },
   {
     name: "Node Js",
-    image: "https://cdn.icon-icons.com/icons2/2107/PNG/96/file_type_node_icon_130301.png",
+    image: "https://res.cloudinary.com/gescobar/image/upload/v1675081898/portfolio/file_type_node_icon_130301_gtco7k.svg",
   },
   {
     name: "Express",
@@ -17,31 +17,31 @@ const tecnologies = [
   },
   {
     name: "Redux",
-    image: "https://cdn.icon-icons.com/icons2/2415/PNG/96/redux_original_logo_icon_146365.png",
+    image: "https://res.cloudinary.com/gescobar/image/upload/v1675081898/portfolio/redux_original_logo_icon_146365_ibc1ja.svg",
   },
   {
     name: "JEST",
-    image: "https://cdn.icon-icons.com/icons2/2107/PNG/96/file_type_jest_icon_130514.png",
+    image: "https://res.cloudinary.com/gescobar/image/upload/v1675081304/portfolio/jest_dr9cjv.svg",
   },  
   {
     name: "PostgreSQL",
-    image: "https://cdn.icon-icons.com/icons2/2415/PNG/96/postgresql_plain_logo_icon_146389.png",
+    image: "https://res.cloudinary.com/gescobar/image/upload/v1675081897/portfolio/postgresql_logo_icon_170835_cafqzj.svg",
   },
   {
     name: "Sequelize",
-    image: "https://cdn.icon-icons.com/icons2/2415/PNG/96/sequelize_original_logo_icon_146348.png",
+    image: "https://res.cloudinary.com/gescobar/image/upload/v1675081897/portfolio/sequelize_original_logo_icon_146348_syxse8.svg",
   },
   {
     name: "HTML",
-    image: "https://cdn.icon-icons.com/icons2/2107/PNG/96/file_type_html_icon_130541.png",
+    image: "https://res.cloudinary.com/gescobar/image/upload/v1675081897/portfolio/file_type_html_icon_130541_es1jc3.svg",
   },
   {
     name: "CSS",
-    image: "https://cdn.icon-icons.com/icons2/2107/PNG/96/file_type_css_icon_130661.png",
+    image: "https://res.cloudinary.com/gescobar/image/upload/v1675081897/portfolio/file_type_css_icon_130661_uz0etp.svg",
   },
   {
     name: "Git",
-    image: "https://cdn.icon-icons.com/icons2/2107/PNG/96/file_type_git_icon_130581.png",
+    image: "https://res.cloudinary.com/gescobar/image/upload/v1675081897/portfolio/file_type_git_icon_130581_pycw9u.svg",
   },
   {
     name: "GitHub",
@@ -49,7 +49,7 @@ const tecnologies = [
   },
   {
     name: "Postman",
-    image: "https://cdn.icon-icons.com/icons2/3053/PNG/96/postman_macos_bigsur_icon_189815.png",
+    image: "https://res.cloudinary.com/gescobar/image/upload/v1675081897/portfolio/postman_macos_bigsur_icon_189815_tfambp.ico",
   },
   // {
   //   name: "Visual Studio Code",
@@ -57,7 +57,7 @@ const tecnologies = [
   // },
   {
     name: "Trello",
-    image: "https://cdn.icon-icons.com/icons2/836/PNG/96/Trello_icon-icons.com_66775.png",
+    image: "https://res.cloudinary.com/gescobar/image/upload/v1675081395/portfolio/Trello_icon-icons.com_66775_bdef0f.svg",
   },
   {
     name: "SCRUM",

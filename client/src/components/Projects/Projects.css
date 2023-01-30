@@ -1,16 +1,27 @@
 .divProjects{
   display: flex;
   /* border: 1px solid salmon; */
-  margin: 3%;
+  margin: 2% 2% 5% 2%;
+  background-color: rgba(41, 40, 40, 0.575);
+  /* padding: 1%; */
+  border-radius: 20px;
+  /* box-shadow: 1px 0px 5px var(--secondColor); */
+}
+
+#nameResponsive{
+  display: none;
 }
 
 .imgProjects{
-  width: 90%;
+  width: 95%;
+  margin: 2% 5% 2% 2%;
+  border-radius: 20px;
 }
 
 .h4Projects{
   /* border: 1px solid blue; */
   font-size: 1.3rem;
+  text-shadow: 1px 1px 5px var(--secondColor);
 }
 
 .pProjects{
@@ -23,7 +34,7 @@
 
 .divTextProjects{
   /* border: 1px solid green; */
-  width: 35%;
+  width: 33%;
 }
 
 .divImgProjects{
@@ -56,18 +67,16 @@
   .divProjects{
     display: block;
     /* border: 1px solid salmon; */
-    margin: 2%;
+    margin: 2% 2% 10% 2%;
   }
   
   .imgProjects{
-    width: 100%;
+    width: 95%;
+    border-radius: 20px;
   }
   
   .h4Projects{
-    /* border: 1px solid blue; */
-    font-size: 2rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    display: none;
   }
   
   .pProjects{
@@ -80,7 +89,8 @@
   
   .divTextProjects{
     /* border: 1px solid green; */
-    width: 100%;
+    margin-left: 2.5%;
+    width: 95%;
   }
   
   .divImgProjects{
@@ -95,6 +105,17 @@
     margin-right: 5%;
     position: relative;
     margin-bottom: 5%;
-  
+  }
+
+  #nameResponsive{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* border: 1px solid green; */
+    padding-top: 3%;
+    text-shadow: 1px 1px 5px var(--secondColor);
+
   }
 }

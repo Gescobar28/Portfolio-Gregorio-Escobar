@@ -13,7 +13,7 @@
 .divFooter{
   /* background-color: black; */
   /* color: white; */
-  border: 1px solid var(--firstColor);
+  border: 1px solid transparent;
 }
 
 /*----------------- RESPONSIVE DESIGN*----------------/

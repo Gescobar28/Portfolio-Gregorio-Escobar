@@ -3,6 +3,22 @@
   text-align: center;
   background-color: var(--firstColor);
   color: rgb(255, 255, 255);
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.575),
+    rgba(0, 0, 0, 0.712)
+  ), 
+  url(
+    'https://res.cloudinary.com/gescobar/image/upload/v1675080525/portfolio/fondo_portfolio_p7yoxb.webp'
+    );
+  overflow: hidden;
+  min-height: 100vh;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /* background-image: linear-gradient(#000000, #645959) */
+  
 }
 
 .App-logo {
@@ -36,5 +52,41 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Pantallas grandes (Computadoras) */
+@media (max-width: 992px){
+
+}
+
+/* Pantallas dispositivos medianos (Tablets) */
+@media (max-width: 768px){
+
+}
+
+/* Pantallas dispositivos pequeños  (Telefonos) */
+@media (max-width: 576px){
+  .App {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: var(--firstColor);
+    color: rgb(255, 255, 255);
+    background-image: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.575),
+      rgba(0, 0, 0, 0.712)
+    ), 
+    url(
+      'https://res.cloudinary.com/gescobar/image/upload/v1675080675/portfolio/fondo_portfolio_cel_qbwkud.webp'
+      );
+    overflow: hidden;
+    min-height: 100vh;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* background-image: linear-gradient(#000000, #645959) */
+    
   }
 }

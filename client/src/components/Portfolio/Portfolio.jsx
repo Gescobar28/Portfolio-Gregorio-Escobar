@@ -11,19 +11,19 @@ import About from "../About/About";
 export default function Portfolio(){
   return(
     <div id="Home" className="divFooter">
-      <section className="sectionHome">
+      <section className="sectionHome divFooter">
         <Home/>
       </section>
-      <section className="sectionAbout">
+      <section className="sectionAbout divFooter">
         <About/>
       </section>
-      <section className="sectionTec">
+      <section className="sectionTec divFooter">
         <Tecnologies/>
       </section>
-      <section className="sectionProjects">
+      <section className="sectionProjects divFooter">
         <Projects/>
       </section>
-      <section className="sectionContact">
+      <section className="sectionContact divFooter">
         <Contact/>  
       </section>
       <Footer/>

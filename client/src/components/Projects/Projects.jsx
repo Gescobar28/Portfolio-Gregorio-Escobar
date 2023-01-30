@@ -8,6 +8,7 @@ export default function Projects(){
       <h3 className="h3Tittle">Proyectos</h3>
       {projects.map(el => 
         <div key={el.name} className="divProjects">
+          <a className="aNav" href={el.linkDeploy} target='_blank'><h4 id='nameResponsive'>{el.name}</h4></a>
           <div className="divImgProjects">
             <img src={el.image} className='imgProjects'></img>
           </div>

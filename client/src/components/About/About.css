@@ -1,9 +1,3 @@
-.color1 {color: #155190;}
-.color2 {color: #1778a9;}
-.color3 {color: #1fb1cd;}
-.color4 {color: #7ee8e5;}
-.color5 {color: #dbefed;}
-
 .divAbout{
   box-sizing: border-box;
   /* border: 1px solid red; */
@@ -20,7 +14,7 @@
 
 .divGlobAbout{
   width: 70%;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid transparent;
   margin-left: 15%;
   /* margin-top: 15%; */
   
