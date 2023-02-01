@@ -1,6 +1,9 @@
 :root {
   --firstColor: #17171b;
-  --secondColor: hsla(17, 100%, 54%, 0.925);
+  /* --secondColor: hsla(17, 100%, 54%, 0.925); */
+  --secondColor: hsla(59, 100%, 50%, 0.925);
+  /* --secondColor: hsl(44, 100%, 50%); */
+
 }
 
 .divHome{
@@ -10,24 +13,39 @@
   box-sizing: border-box;
   margin-top: 5%;
   /* background-color: #292a30e8; */
+  animation: change-display 5s linear 5s 4 normal forwards running;
 }
+
+
+.imgHome{
+  width: 50%;
+  border-radius: 70px;
+  display: none;
+  
+}
+
+@keyframes change-display {
+  from { display: none; }  /* Primer fotograma */
+  to { display: flex; }  /* Segundo y último fotograma */
+}
+
 
 .divName{
   /* border: 1px solid blue; */
   box-sizing: border-box;
-  width: 50%;
+  width: 100%;
   align-items: center;
   /* background-color: grey; */
+  padding: 5%;
 }
 
 .divInfoHome{
   /* border: 1px solid green; */
-  width: 50%;
+  width: 100%;
   box-sizing: border-box;
   text-align: justify;
   /* margin-top: 5%; */
   /* color: rgb(255, 102, 0); */
-
 }
 
 .pInfoHome{
@@ -38,19 +56,20 @@
 }
 
 #spanName{
-  display: none;
+  display: inline;
   font-size: 1.5rem;
   text-shadow: 1px 1px 5px rgb(5, 5, 5);
+  /* border: 1px solid rgb(251, 255, 39); */
 }
 
 #name{
   font-size: 4rem;
   justify-content: flex-start;
   /* border: 1px solid rgb(128, 0, 100); */
-  margin-left: 5%;
-  margin-top: 25%;
+  /* margin-left: 5%; */
+  /* margin-top: 25%; */
   margin-bottom: 0%;
-  text-align: left;
+  text-align: center;
   text-shadow: 1px 1px 5px rgb(5, 5, 5);
   /* color: rgb(255, 102, 0); */
   /* animation: change-color 5s linear 0.5s 4 normal forwards running; */
@@ -69,8 +88,8 @@
   justify-content: flex-start;
   /* border: 1px solid rgb(255, 0, 0); */
   margin-top: 0px;
-  text-align: left;
-  margin-left: 5%;
+  text-align: center;
+  /* margin-left: 5%; */
   /* color: rgb(255, 102, 0); */
   color: var(--secondColor);
   text-shadow: 1px 1px 5px rgb(5, 5, 5);
@@ -104,10 +123,13 @@
   background-color: var(--secondColor);
   cursor: pointer;
   border-color: #000000;
+  transition: all 0.5s;
+  /* color: black; */
 }
 
 /* .btnHome :hover{
   background-color: var(--secondColor);
+  color: black;
 } */
 
 .spanHome{

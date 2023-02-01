@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './About.css'
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 export default function About(){
+  // useEffect(() => {
+  //   AOS.init();
+  // }, [])
   return(
-    <div id="AboutMe" className="divGlobAbout">
+    <div data-aos="zoom-in-up" data-aos-duration="1000" id="AboutMe" className="divGlobAbout">
       <h3 className="h3Tittle">Acerca de mí</h3>
       <div className="divAbout">
         <p className="pAbout">

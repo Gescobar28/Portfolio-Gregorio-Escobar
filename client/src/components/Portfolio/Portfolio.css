@@ -31,7 +31,7 @@
 
 /* Pantallas dispositivos pequeños  (Telefonos) */
 @media (max-width: 576px){
-  .sectionAbout{
+  /* .sectionAbout{
     display: none;
-  }
+  } */
 }

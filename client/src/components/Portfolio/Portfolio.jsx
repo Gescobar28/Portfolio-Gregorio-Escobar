@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Link from 'react-router-dom';
 import Projects from "../Projects/Projects";
 import Tecnologies from "../Tecnologies/Tecnologies";
@@ -7,8 +7,13 @@ import Home from "../Home/Home"
 import Footer from "../Footer/Footer";
 import './Portfolio.css'
 import About from "../About/About";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Portfolio(){
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return(
     <div id="Home" className="divFooter">
       <section className="sectionHome divFooter">

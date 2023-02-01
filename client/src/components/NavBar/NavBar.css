@@ -8,6 +8,7 @@
 
 .liHeader :hover{
   color: var(--secondColor);
+  transition: all 0.8s;
 }
 
 .ulHeader{
@@ -30,6 +31,7 @@
 .aNav{
   text-decoration: none;
   color: #ffffff;
+  transition: all 0.5ms;
 }
 
 /* Pantallas grandes (Computadoras) */

@@ -20,3 +20,49 @@
   
 }
 
+/*----------------- RESPONSIVE DESIGN*----------------/
+
+
+/* Pantallas grandes (Computadoras) */
+@media (max-width: 992px){
+
+}
+
+/* Pantallas dispositivos medianos (Tablets) */
+@media (max-width: 768px){
+
+}
+
+/* Pantallas dispositivos pequeños  (Telefonos) */
+@media (max-width: 576px){
+  /* .sectionAbout{
+    display: none;
+  } */
+
+  .divGlobAbout{
+    width: 100%;
+    /* border: 1px solid yellow; */
+    margin-left: 0%;
+    /* margin-top: 15%; */
+box-sizing: border-box;
+  }
+
+  .pAbout{
+    font-size: 1.4rem;
+    margin: 0 5% 0 5%;
+    /* margin-right: 5%; */
+    /* margin-top: 10%; */
+    text-align: justify;
+    width: 100%;
+  }
+
+  .divAbout{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap:wrap
+  }
+}
+
+
+

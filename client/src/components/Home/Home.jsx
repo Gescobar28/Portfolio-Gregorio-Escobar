@@ -11,16 +11,16 @@ export default function Home(){
   return(
     <div>
         <NavBar/>
-        <div className="divHome" >
-          <div className="divName">
-            <h1 id="name"><span id="spanName">Hola, mi nombre es<br/></span>Gregorio Escobar</h1>
+        <div  className="divHome" >
+          <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-once="true" className="divName">
+            <h1 id="name"><img width='40px' src="https://res.cloudinary.com/gescobar/image/upload/v1675258207/portfolio/383wavinghand1_100830_ushv3x.svg"/><span id="spanName">Hola! Soy<br/></span>Gregorio Escobar</h1>
             <h1 id="fullStack">Desarrollador Web Full Stack</h1>
           </div>
-          <div className="divInfoHome">
-            <p className="pInfoHome">Hola, soy Desarrollador Web Full Stack Hola, soy Desarrollador Web Full Stack Hola, soy Desarrollador Web Full Stack Hola, soy Desarrollador <br/>Web Full Stack Hola, soy Desarrollador Web Full StackHola, soy Desarrollador Web Full StackHola, </p>
-          </div>
+          {/* <div className="divInfoHome">
+            <img className="imgHome" src='https://res.cloudinary.com/gescobar/image/upload/v1675256973/portfolio/WhatsApp_Image_2022-11-08_at_21.14.57_sqsevc.jpg'/>
+          </div> */}
         </div>
-        <div className="divButton">
+        <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-once="true" className="divButton">
           <a className="aNav" href="https://drive.google.com/file/d/1RP-mDa2Kr4Yij7thtJhl9SRBD5JRVqCp/view?usp=sharing" target="_blank" download>
             <button className="btnHome">
               <BsDownload/><span className="spanHome">DESCARGAR CV</span>

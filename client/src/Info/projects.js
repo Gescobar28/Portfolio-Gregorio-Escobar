@@ -1,7 +1,7 @@
 const proyectos = [
   {
     name: "Qatar E-Shop 2022",
-    description: "Tienda en línea de indumentaria deportiva alusiva al mundial Qatar 2022 donde se pueden ver y listar los productos disponbles. Cuenta con una barra de búsqueda, filtros y ordenamiento, carrito de compras. Tiene acceso a un panel de administrador en el que se pueden gestionar productos, usuarios, ordenes de compra, entre otros.",
+    description: "Tienda en línea de indumentaria deportiva alusiva al mundial Qatar 2022 donde se pueden ver y listar los productos disponibles. Cuenta con una barra de búsqueda, filtros y ordenamiento, carrito de compras. Tiene acceso a un panel de administrador en el que se pueden gestionar productos, usuarios, ordenes de compra, entre otros.",
     image: "https://res.cloudinary.com/gescobar/image/upload/v1675089446/portfolio/fondoqatar_nbvrjg.png",
     linkDeploy: "https://shopqatar2022.vercel.app/",
     linkGithub: "https://github.com/Gescobar28/eccomercePF"
