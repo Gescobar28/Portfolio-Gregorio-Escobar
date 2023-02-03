@@ -19,16 +19,16 @@ export default function Portfolio(){
       <section className="sectionHome divFooter">
         <Home/>
       </section>
-      <section className="sectionAbout divFooter">
+      <section id="AboutMe" className="sectionAbout divFooter">
         <About/>
       </section>
-      <section className="sectionTec divFooter">
+      <section id="Tecnologies" className="sectionTec divFooter">
         <Tecnologies/>
       </section>
-      <section className="sectionProjects divFooter">
+      <section id='Project' className="sectionProjects divFooter">
         <Projects/>
       </section>
-      <section className="sectionContact divFooter">
+      <section id="Contact" className="sectionContact divFooter">
         <Contact/>  
       </section>
       <Footer/>

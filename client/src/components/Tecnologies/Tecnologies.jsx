@@ -4,7 +4,7 @@ import './Tecnologies.css'
 
 export default function Tecnologies(){
   return(
-    <div data-aos="zoom-in-up" data-aos-duration="1000" id="Tecnologies" className="divMayTec">  
+    <div data-aos="zoom-in-up" data-aos-duration="1000"  className="divMayTec">  
       <h3 className="h3Tittle">Tecnologías y Herramientas</h3>
       <div className="divTecTools">
         {tecnologies.map(el =>

@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Portfolio from './components/Portfolio/Portfolio';
 import NavBar from './components/NavBar/NavBar';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function App() {

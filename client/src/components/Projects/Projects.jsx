@@ -4,7 +4,7 @@ import './Projects.css'
 
 export default function Projects(){
   return(
-    <div data-aos="zoom-in-up" id='Project' className="divMayTec">
+    <div data-aos="zoom-in-up" className="divMayTec">
       <h3 className="h3Tittle">Proyectos</h3>
       {projects.map(el => 
         <div data-aos="zoom-in-up" data-aos-duration="1000" key={el.name} className="divProjects">

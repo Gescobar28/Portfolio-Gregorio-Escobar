@@ -3,7 +3,7 @@ import './Contact.css'
 
 export default function Contact(){
   return(
-    <div id="Contact" className="divMayTec" data-aos="zoom-in-down" data-aos-duration="1000">
+    <div  className="divMayTec" data-aos="zoom-in-down" data-aos-duration="1000">
       <h3 className="h3Tittle">Si estás buscando un desarrollador<br/> o quieres conectar, te invito a seguirme...</h3>
       <div className="divOptionsContact">
         <div className="divContactOp">

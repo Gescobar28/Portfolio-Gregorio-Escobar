@@ -8,7 +8,7 @@ export default function About(){
   //   AOS.init();
   // }, [])
   return(
-    <div data-aos="zoom-in-up" data-aos-duration="1000" id="AboutMe" className="divGlobAbout">
+    <div data-aos="zoom-in-up" data-aos-duration="1000"  className="divGlobAbout">
       <h3 className="h3Tittle">Acerca de mí</h3>
       <div className="divAbout">
         <p className="pAbout">
