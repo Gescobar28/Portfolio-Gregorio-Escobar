@@ -11,4 +11,5 @@ export const Button = styled.div`
   z-index: 1;
   cursor: pointer;
   scroll-behavior: 'smooth'
+  border: black
 `
