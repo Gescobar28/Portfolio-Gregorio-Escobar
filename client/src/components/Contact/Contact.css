@@ -4,6 +4,17 @@
     border: 1px solid rgb(0, 0, 0);
 } */
 
+
+.aNavContact{
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.5ms;
+}
+
+.aNavContact :hover{
+  color: var(--secondColor)
+}
+
 .divContactOp{
   /* display: flex; */
   /* border: 1px solid rgb(241, 213, 213); */
@@ -35,6 +46,7 @@
   margin-top: 0%;
   font-size: 1rem
 }
+
 
 /* Pantallas grandes (Computadoras) */
 @media (max-width: 992px){

@@ -9,6 +9,8 @@ import './Portfolio.css'
 import About from "../About/About";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// import ScrollToTop from 'react-scroll-to-top'
+import ScrollButton from '../ScrollButton/ScrollButton.js'
 
 export default function Portfolio(){
   useEffect(() => {
@@ -31,6 +33,7 @@ export default function Portfolio(){
       <section id="Contact" className="sectionContact divFooter">
         <Contact/>  
       </section>
+      <ScrollButton/>
       <Footer/>
     </div>
   )

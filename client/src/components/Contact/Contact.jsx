@@ -7,25 +7,25 @@ export default function Contact(){
       <h3 className="h3Tittle">Si estás buscando un desarrollador<br/> o quieres conectar, te invito a seguirme...</h3>
       <div className="divOptionsContact">
         <div className="divContactOp">
-          <a className="aNav" href="mailto:gregorioescobar_28@hotmail.com" target="_blank">
+          <a className="aNavContact" href="mailto:gregorioescobar_28@hotmail.com" target="_blank">
             <img className="imgContact" src="https://res.cloudinary.com/gescobar/image/upload/v1674393007/portfolio/mail-svgrepo-com_bj8lmf.svg"></img>
             <h4 className="h4Contact">MAIL</h4>
           </a>
         </div>
         <div className="divContactOp">
-          <a className="aNav" href="https://wa.me/542612652733" target="_blank">
-          <img className="imgContact" src="https://cdn.icon-icons.com/icons2/806/PNG/96/whatsapp_icon-icons.com_65942.png"></img>
+          <a className="aNavContact" href="https://wa.me/542612652733" target="_blank">
+          <img className="imgContact" src="https://res.cloudinary.com/gescobar/image/upload/v1675868979/whatsapp_icon-icons.com_65942_z0hfll.png"></img>
           <h4 className="h4Contact">WHATSAPP</h4>
           </a>
         </div>
         <div className="divContactOp">
-          <a className="aNav" href="https://www.linkedin.com/in/gregorioescobar28" target="_blank">
-            <img className="imgContact" src="https://cdn.icon-icons.com/icons2/99/PNG/96/linkedin_socialnetwork_17441.png"></img>
+          <a className="aNavContact" href="https://www.linkedin.com/in/gregorioescobar28" target="_blank">
+            <img className="imgContact" src="https://res.cloudinary.com/gescobar/image/upload/v1675868979/linkedin_socialnetwork_17441_asouvd.png"></img>
             <h4 className="h4Contact">LINKEDIN</h4>
           </a>
         </div>
         <div className="divContactOp">
-          <a className="aNav" href="https://github.com/Gescobar28" target="_blank">
+          <a className="aNavContact" href="https://github.com/Gescobar28" target="_blank">
             <img className="imgContact" src="https://res.cloudinary.com/gescobar/image/upload/v1674391974/portfolio/github-svgrepo-com_wbru5c.svg"></img>
             <h4 className="h4Contact">GITHUB</h4>
           </a>
